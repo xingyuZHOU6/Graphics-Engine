@@ -1,41 +1,32 @@
-# 编译器生成的文件
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
 *.o
 *.obj
-*.exe
-*.dll
-*.pdb
-*.lib
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
 
-# 编译器/IDE生成的文件
-out/
-bin/
-obj/
+# Fortran module files
+*.mod
+*.smod
 
-# 包文件
-*.zip
-*.rar
-*.gz
-*.tar
-*.7z
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# 日志和临时文件
-*.log
-*.tmp
-*.bak
-*.swp
-
-# Visual Studio生成的文件和文件夹
-[Dd]ebug/
-[Rr]elease/
-*.suo
-*.user
-*.sln.docstates
-*.suo
-*.cache
-*.csproj.user
-.vs/
-
-# macOS/OS X专用文件
-*.DS_Store
+# Executables
+*.exe
+*.out
+*.app
